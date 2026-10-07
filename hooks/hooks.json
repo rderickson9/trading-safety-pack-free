@@ -1,0 +1,13 @@
+{
+  "description": "Trading Safety Pack (free tier): sacred-file-guard blocks edits and deletions of databases and credential files. Plain Node, zero dependencies, fails open.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|Bash",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/sacred-file-guard.js\"", "timeout": 10 }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "trading-safety-pack-free",
+  "version": "0.1.0",
+  "description": "Free tier of the Trading Safety Pack: five read-only review agents for retail algo-trading codebases (dry-run enforcement, double-fill prevention, timezone audit, orphan signals, hardcoded secrets) plus a guard hook that blocks edits to databases and credential files.",
+  "author": { "name": "Erickson Automation LLC", "url": "https://ericksonautomation.lemonsqueezy.com/" },
+  "homepage": "https://ericksonautomation.lemonsqueezy.com/",
+  "license": "MIT",
+  "keywords": ["trading", "algo-trading", "safety", "code-review", "hooks"],
+  "agents": "./agents",
+  "hooks": "./hooks/hooks.json"
+}
