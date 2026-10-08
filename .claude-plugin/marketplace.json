@@ -1,0 +1,14 @@
+{
+  "name": "trading-safety-pack-free",
+  "owner": { "name": "Erickson Automation LLC", "url": "https://ericksonautomation.lemonsqueezy.com/" },
+  "metadata": {
+    "description": "Free tier of the Trading Safety Pack. Add this folder or repository with 'claude plugin marketplace add', then install trading-safety-pack-free@trading-safety-pack-free."
+  },
+  "plugins": [
+    {
+      "name": "trading-safety-pack-free",
+      "source": "./",
+      "description": "Five read-only review agents for retail algo-trading codebases plus a database and credential file guard hook."
+    }
+  ]
+}
